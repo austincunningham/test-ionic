@@ -1,0 +1,21 @@
+{
+    "version": 1,
+    "namespace": "myproject",
+    "clientId": "test-ionic",
+    "services": [
+      {
+        "id": "558383a6-2314-11e9-8c19-525400c8ff5e",
+        "name": "keycloak",
+        "type": "keycloak",
+        "url": "https://keycloak-myproject.192.168.42.86.nip.io/auth",
+        "config": {
+          "auth-server-url": "https://keycloak-myproject.192.168.42.86.nip.io/auth",
+          "confidential-port": 0,
+          "public-client": true,
+          "realm": "myproject",
+          "resource": "test-ionic-public",
+          "ssl-required": "external"
+        }
+      }
+    ]
+  } 
