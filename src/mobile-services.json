@@ -16,6 +16,16 @@
           "resource": "test-ionic-public",
           "ssl-required": "external"
         }
+      },
+      {
+        "id": "security",
+        "name": "security",
+        "type": "security",
+        "url": "http://10.0.2.2:3000",
+        "config": {
+          "mobile-security-server-url": "http://10.0.2.2:3000"
+  
+        }
       }
     ]
   } 
