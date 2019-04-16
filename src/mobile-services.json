@@ -21,9 +21,9 @@
         "id": "security",
         "name": "security",
         "type": "security",
-        "url": "http://10.0.2.2:3000",
+        "url": "https://mss-route-ag-8371-lf.comm2.skunkhenry.com",
         "config": {
-          "mobile-security-server-url": "http://10.0.2.2:3000"
+          "mobile-security-server-url": "https://mss-route-ag-8371-lf.comm2.skunkhenry.com"
   
         }
       }

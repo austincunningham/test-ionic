@@ -25,7 +25,11 @@ appSecurity.clientInit()
     navigator['app'].exitApp();
   }
 })
-.catch(error => error);
+.catch(error => {
+  console.log(error);
+  alert("Unable to connect to security server, Check your internet connection");
+  navigator['app'].exitApp();
+});
 
 
 // let initOptions = { onLoad: "login-required" };
